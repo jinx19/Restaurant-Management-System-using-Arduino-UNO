@@ -1,4 +1,4 @@
-# Restaurant Management System using Arduino UNO along with Website. 
+# Restaurant Management System using Arduino UNO.
 This repository contains the codes for the Restaurant Management System. There are 5 files in total.
 
 Files Description:
