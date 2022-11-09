@@ -4,8 +4,8 @@
 #include <LiquidCrystal_I2C.h> 
 #include<Wire.h>
  
-#define FIREBASE_HOST "himaja-6ec41-default-rtdb.firebaseio.com" // Firebase host
-#define FIREBASE_AUTH "PdVMPiUIubnYauBZoIi6h1cMkyGMumJB67xZ3GIO" //Firebase Auth code
+#define FIREBASE_HOST "--------------------------------" // Firebase host
+#define FIREBASE_AUTH "--------------------------------" //Firebase Auth code
 
 #define WIFI_SSID "-_-_-_-_" //Enter your wifi Name
 #define WIFI_PASSWORD "_-_-_-_" // Enter your password
@@ -24,7 +24,7 @@ char keys[ROWS][COLS] = {
 };
 
 byte rowPins[ROWS] = {D7, D6, D5, D4}; 
-byte colPins[COLS] = {D3, D8, 3, D0};
+byte colPins[COLS] = {D3, D8, D3, D0};
 
 char order[3];
 
